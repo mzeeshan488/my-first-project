@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Noto+Serif:ital,wght@0,700;1,400&family=Open+Sans:wght@500;600&display=swap');
+:root
+{
+    --primary-color:#5B4A82;
+}
+body{
+    font-family: 'EB Garamond', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/** container section**/
+.container
+{
+   padding: 0rem 1rem;
+}
+.container-fluid
+{
+   padding-left: 1rem;
+   padding-right: 1rem;   
+}
+.container-center
+{
+    max-width: 600px;
+    margin: auto;
+}
+/**links**/
+.links{
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+.primary-link{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    color:white;  
+}
+.secondry-link
+{
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+}
+/**lists**/
+.non-bullet-list
+{
+    list-style: none;
+}
+.list-inline
+{
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+/**navigation**/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    list-style: none;
+    text-align: right;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+.left{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.03rem;
+}
+.list-inline-active-line
+{
+    font-weight: bold;
+}
+.header-image{
+max-width: 350px;
+margin: auto;
+display: block;
+text-align: center;
+}
+.header-font{
+    color: var(--primary-color);
+    
+}
+.section h1
+{
+    text-align: center;
+}
