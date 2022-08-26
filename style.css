@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #5B4A82;
-    --offwhite: #D1D1D1;
+    --offwhite: #E7E7E7;
 }
 
 body {
@@ -49,7 +49,7 @@ hr {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
-    
+    margin: auto;
 }
 
 /**lists**/
@@ -133,4 +133,7 @@ hr {
     color: white;
     text-align: center;
 
+}
+#sec{
+    margin-left: 45%
 }
