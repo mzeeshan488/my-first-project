@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Noto+Serif:ital,wght@0,700;1,400&family=Open+Sans:wght@500;600&display=swap');
 
 :root {
-    --primary-color: #5B4A82;
+    --primary-color: #B9623F;
     --offwhite: #E7E7E7;
 }
 
@@ -119,6 +119,10 @@ hr {
 
 .ow {
     background-color: var(--offwhite);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .footer {
@@ -136,4 +140,7 @@ hr {
 }
 #sec{
     margin-left: 45%
+}
+p{
+    text-align: center;
 }
