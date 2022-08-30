@@ -45,6 +45,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+  
 }
 
 .secondry-link {
@@ -151,9 +152,15 @@ hr {
 p{
     text-align: center;
 }
-.list-inline:hover{
+.list-inline :hover{
 
   background-color: #632C0F;
-  transition: 2s;
+  transition: 0.5s;
+  box-shadow: 0 2px 4px black;
+}
+.primary-link:hover{
+    background-color: #632C0F;
+  transition: 0.5s;
+  box-shadow: 0 2px 4px black;
 
 }
