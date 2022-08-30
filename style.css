@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Noto+Serif:ital,wght@0,700;1,400&family=Open+Sans:wght@500;600&display=swap');
+
 
 :root {
     --primary-color: #B9623F;
@@ -7,8 +7,10 @@
 
 body {
     font-family: 'EB Garamond', serif;
-    font-family: 'Noto Serif', serif;
-    font-family: 'Open Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+    
     margin:0px;
 }
 
@@ -74,8 +76,8 @@ hr {
 
 .left{
     text-align: left;
-    font-weight: bold;
-    font-size: 1.03rem;
+    font-weight:medium;
+   
 }
 
 .list-inline-active-line {
@@ -92,6 +94,7 @@ hr {
 
 .header-font {
     color: var(--primary-color);
+    font-weight: bolder;
 
 }
 
@@ -110,8 +113,8 @@ hr {
 }
 
 .section2 p{
-    max-width: 600px;
-    margin: auto;
+    max-width: 550px;
+    margin:auto;
 }
 .section2 h1{
     text-align: center;
@@ -135,12 +138,22 @@ hr {
 }
 #left{
     color: white;
-    text-align: center;
+    
 
 }
 #sec{
-    margin-left: 45%
+    text-align: center;
+
+    max-width: 100px;
+    margin: auto;
+    display: block;
 }
 p{
     text-align: center;
+}
+.list-inline:hover{
+
+  background-color: #632C0F;
+  transition: 2s;
+
 }
