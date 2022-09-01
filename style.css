@@ -154,13 +154,13 @@ p{
 }
 .list-inline :hover{
 
-  background-color: #632C0F;
+  background-color: #994619;
   transition: 0.5s;
-  box-shadow: 0 2px 4px black;
+  box-shadow: 0 2px 4px #491208;
 }
 .primary-link:hover{
-    background-color: #632C0F;
+    background-color: #994619;
   transition: 0.5s;
-  box-shadow: 0 2px 4px black;
+  box-shadow: 0 2px 4px #491208;
 
 }
